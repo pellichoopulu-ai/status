@@ -16,7 +16,7 @@ sites:
   - name: Monitoring drill
     url: https://pellichoopulu-ai.github.io/status/no-such-page-drill
 status-website:
-  baseUrl: /status
+  cname: status.pellichoopulu.ai
   name: Pellichoopulu status
   introTitle: "Is Pellichoopulu working?"
   introMessage: "If something isn't working for you, this page says whether we know about it."
