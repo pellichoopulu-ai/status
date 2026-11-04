@@ -14,7 +14,7 @@ sites:
       - 404
     maxResponseTime: 5000
   - name: Monitoring drill
-    url: https://pellichoopulu-ai.github.io/status/
+    url: https://pellichoopulu-ai.github.io/status/no-such-page-drill
 status-website:
   cname: status.pellichoopulu.ai
   name: Pellichoopulu status
