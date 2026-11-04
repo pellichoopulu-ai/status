@@ -1,31 +1,20 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
-
+# pgforge MANUAL Part 36; the plan: the app's docs/STATUS-PAGE.md. This repository is public: no names, addresses or
+# internal details of anyone or anything, in here or in any issue.
+owner: pellichoopulu-ai
+repo: status
+assignees:
+  - pellichoopulu-user
+skipDeleteIssues: true
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
-
+  # Until go-live: the one path Cloudflare Access leaves open on the test site. It answers 404 until the app has that
+  # file; a redirect to the sign-in gate or an outage's 5xx counts as down. At go-live this becomes the real site.
+  - name: Test site
+    url: https://dev.pellichoopulu.ai/.well-known/assetlinks.json
+    expectedStatusCodes:
+      - 404
+    maxResponseTime: 5000
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  baseUrl: /status
+  name: Pellichoopulu status
+  introTitle: "Is Pellichoopulu working?"
+  introMessage: "If something isn't working for you, this page says whether we know about it."
