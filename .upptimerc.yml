@@ -13,6 +13,8 @@ sites:
     expectedStatusCodes:
       - 404
     maxResponseTime: 5000
+  - name: Monitoring drill
+    url: https://pellichoopulu-ai.github.io/status/no-such-page-drill
 status-website:
   baseUrl: /status
   name: Pellichoopulu status
