@@ -4,17 +4,17 @@
     "url": "https://dev.pellichoopulu.ai/.well-known/assetlinks.json",
     "icon": "https://icons.duckduckgo.com/ip3/dev.pellichoopulu.ai.ico",
     "slug": "test-site",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 747,
-    "timeDay": 785,
-    "timeWeek": 756,
-    "timeMonth": 747,
-    "timeYear": 747,
+    "time": 709,
+    "timeDay": 423,
+    "timeWeek": 669,
+    "timeMonth": 709,
+    "timeYear": 709,
     "dailyMinutesDown": {}
   }
 ]
