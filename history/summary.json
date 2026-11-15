@@ -5,16 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/dev.pellichoopulu.ai.ico",
     "slug": "test-site",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 709,
-    "timeDay": 423,
-    "timeWeek": 669,
-    "timeMonth": 709,
-    "timeYear": 709,
-    "dailyMinutesDown": {}
+    "uptime": "96.88%",
+    "uptimeDay": "66.25%",
+    "uptimeWeek": "95.18%",
+    "uptimeMonth": "96.88%",
+    "uptimeYear": "96.88%",
+    "time": 674,
+    "timeDay": 56,
+    "timeWeek": 563,
+    "timeMonth": 674,
+    "timeYear": 674,
+    "dailyMinutesDown": {
+      "2026-11-15": 216,
+      "2026-11-14": 270
+    }
   }
 ]
