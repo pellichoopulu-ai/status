@@ -4,22 +4,23 @@
     "url": "https://dev.pellichoopulu.ai/.well-known/assetlinks.json",
     "icon": "https://icons.duckduckgo.com/ip3/dev.pellichoopulu.ai.ico",
     "slug": "test-site",
-    "status": "up",
-    "uptime": "91.32%",
-    "uptimeDay": "100.00%",
+    "status": "down",
+    "uptime": "91.53%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "81.43%",
-    "uptimeMonth": "91.32%",
-    "uptimeYear": "91.32%",
-    "time": 627,
-    "timeDay": 542,
-    "timeWeek": 517,
-    "timeMonth": 627,
-    "timeYear": 627,
+    "uptimeMonth": "91.53%",
+    "uptimeYear": "91.53%",
+    "time": 611,
+    "timeDay": 321,
+    "timeWeek": 475,
+    "timeMonth": 611,
+    "timeYear": 611,
     "dailyMinutesDown": {
       "2026-11-15": 593,
       "2026-11-14": 270,
       "2026-11-24": 900,
-      "2026-11-23": 972
+      "2026-11-23": 972,
+      "2026-11-26": 0
     }
   }
 ]
